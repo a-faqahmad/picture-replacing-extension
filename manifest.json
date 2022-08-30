@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Picture_YT",
+    "version": "1.0",
+    "author": "Afaq Ahmad",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
